@@ -9,6 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
 
 #header {
@@ -78,6 +79,7 @@ ul {
     height: 290px;
     width: 500px;
     border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
     flex-shrink: 0;
 }
 
@@ -105,8 +107,7 @@ ul {
     width: 370px;
     box-sizing: border-box;
     border-radius: 25px;
-    border: solid #919191;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.35);
 }
 
 .container-3 {
